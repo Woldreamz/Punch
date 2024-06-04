@@ -64,7 +64,7 @@ export const Markets = [
   },
 
   {
-    leftPart: {
+    leftSpace: {
       title: "Explore Creative individuals with a keen eye for detail.",
       markets: [
         {
@@ -81,7 +81,7 @@ export const Markets = [
         },
       ],
     },
-    rightPart: {
+    rightSpace: {
       id: 1,
       title: "Design & Creative",
       markets: [

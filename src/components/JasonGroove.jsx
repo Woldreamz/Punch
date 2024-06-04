@@ -29,7 +29,7 @@ const JasonGroove = () => {
                 className="inline mt-2 w-36 md:w-auto"
               />
             </h1>
-            <p className="md:text-xl text-[#959595] font-bold">
+            <p className="md:text-xl text-[#c3c3c3] font-regular">
               Zwilt enabled us to deliver on time and they&apos;ve been heavy
               hitters in our corner since.
             </p>
@@ -54,10 +54,10 @@ const JasonGroove = () => {
             </div>
           </div>
 
-          <div className="max-w-lg md:mt-24 mt-16">
-            <div className="flex items-center gap-2">
+          <div className="max-w-lg md:mt-24 mt-16 my-10">
+            <div className="flex items-center gap-2 my-10">
 
-              <div className="md:w-[102px] md:h-[90px] w-[78px] h-[78px] md:rounded-[40px] rounded-[28px] bg-[#AF7CFF] flex items-center justify-center">
+              <div className="md:w-[102px] md:h-[90px] w-[78px] h-[78px] md:rounded-[40px] rounded-[28px] bg-[#AF7CFF] flex items-center justify-center mt-10">
                 <img
                   src={GrooveWhiteImg}
                   alt="Groove white"
@@ -65,14 +65,14 @@ const JasonGroove = () => {
                 />
               </div>
               <div>
-                <p className="md:text-3xl text-xl font-bold mb-1">
+                <p className="md:text-3xl text-xl font-bold mt-10">
                   Jason Makki
                 </p>
-                <p className="text-[#959595] mb-1">Engineer at GROOVE</p>
+                <p className="text-[#959595] ">Engineer at GROOVE</p>
                 <p className="text-[#959595]">San Francisco</p>
               </div>
             </div>
-            <p className="md:text-xl mt-10 text-[#959595] w-full md:w-[450px] font-bold">
+            <p className="md:text-xl text-[#c3c3c3] w-full md:w-[450px] font-regular">
               Zwilt enabled us to deliver on time and they&apos;ve been heavy
               hitters in our corner since. Zwilt enabled us to deliver on time
               and they&apos;ve been heavy hitters in our corner since. Zwilt

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Journey from "./Journey";
+import TheJourney from "./TheJourney";
 import PlayIconDark from "../assets/play.svg";
 import PlayIconWhite from "../assets/play-white.svg";
 
@@ -92,7 +92,7 @@ const Comprehensive = () => {
       </div>
 
       <div>
-        <Journey />
+        <TheJourney />
       </div>
     </section>
   );

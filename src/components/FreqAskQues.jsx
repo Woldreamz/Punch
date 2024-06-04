@@ -8,7 +8,7 @@ const faqsQuestion = [
   "How much can I earn?",
 ];
 
-const faqs = () => {
+const FreqAskQues = () => {
   return (
     <section className="relative text-[#202229] bg-[#F3F3F3] min-h-screen slanted-border mb-[-9rem] bottom-5 md:bottom-14 py-20 pb-[10rem]">
       <div className="section px-8">
@@ -50,4 +50,4 @@ const faqs = () => {
   );
 };
 
-export default faqs;
+export default FreqAskQues;

@@ -1,68 +1,79 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  background-color: #ffffff;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.section {
+  max-width: 1280px;
+  margin: auto;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+
+.slanted-top {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slanted-border {
+  clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
+}
+
+.slanted-footer {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+
+.drop-shadow-card {
+  box-shadow: 0px 15px 30px 0px #bfb5ff26;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 239, 255, 0) 0%,
+    #edefff 130.82%
+  );
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
+}
+
+.group-hover\:translate-x-5:hover .group-hover\:translate-x-5 {
+  transform: translateX(1.25rem); 
+}
+
+.group-hover\:opacity-100:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  .slanted-border {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   }
 }

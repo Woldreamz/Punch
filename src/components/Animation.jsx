@@ -34,4 +34,9 @@ Animation.propTypes = {
   animation: PropTypes.string.isRequired, // animation is a required string
 };
 
+// Providing default props for the component
+Animation.defaultProps = {
+  className: '', // Default className is an empty string
+};
+
 export default Animation; // Exporting the component as default

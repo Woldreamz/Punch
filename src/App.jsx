@@ -1,4 +1,3 @@
-
 import Animation from './components/Animation';
 import Banner from './components/Banner';
 import Comprehensive from './components/CompScreening';

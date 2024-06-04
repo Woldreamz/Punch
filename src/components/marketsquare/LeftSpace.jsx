@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const LeftSpace = ({ markets }) => {
+  if (!markets) {
+    return <div>Loading...</div>; // Or handle it in some other way
+  }
+
   return (
     <div>
       <p className="text-lg md:text-2xl font-medium mb-4">{markets.title}</p>

@@ -1,17 +1,17 @@
-import Figma from "./assets/figma.svg";
-import DataScience from "./assets/data-science.svg";
-import Shopify from "./assets/shopify.svg";
-import ProfileIcon from "./assets/profile.svg";
-import Magento from "./assets/magento.svg";
-import DotNet from "./assets/dotnet.svg";
-import SkillIcon from "./assets/skill-icon.svg";
-import Photoshop from "./assets/photoshop.svg";
-import Cinema from "./assets/cinema4d.svg";
-import SubCatIcon from "./assets/sub-cat.svg";
-import Illus from "./assets/illus.svg";
-import Unreal from "./assets/unreal.svg";
-import WebFlow from "./assets/webflow.svg";
-import Logo from "./assets/dark-logo.svg";
+import Figma from "/src/assets/figma.svg";
+import DataScience from "/src/assets/data-science.svg";
+import Shopify from "/src/assets/shopify.svg";
+import ProfileIcon from "/src/assets/profile.svg";
+import Magento from "/src/assets/magento.svg";
+import DotNet from "/src/assets/dotnet.svg";
+import SkillIcon from "/src/assets/skill-icon.svg";
+import Photoshop from "/src/assets/photoshop.svg";
+import Cinema from "/src/assets/cinema4d.svg";
+import SubCatIcon from "/src/assets/sub-cat.svg";
+import Illus from "/src/assets/illus.svg";
+import Unreal from "/src/assets/unreal.svg";
+import WebFlow from "/src/assets/webflow.svg";
+import Logo from "/src/assets/dark-logo.svg";
 
 export const Markets = [
   {

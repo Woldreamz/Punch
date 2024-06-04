@@ -137,7 +137,7 @@ const Banner = () => {
         </ul>
       </div>
       <div className="flex items-end justify-end">
-        <div className="hidden lg:block relative bottom-3 ">
+        <div className="hidden lg:block relative bottom-2 ">
           <Link to="/login" className="mr-4 hover:text-yellow-500">
             Login
           </Link>

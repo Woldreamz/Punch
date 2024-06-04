@@ -50,7 +50,7 @@ const Hero = () => {
           has never been easier.
         </h1>
         <p className="text-center max-w-[569px] md:text-[21px] text-lg">
-          With our rigorous pre-vetting process, you'll never have to worry
+          With our rigorous pre-vetting process, you&apos;ll never have to worry
           about finding the ideal candidate ever again.
         </p>
         <div className="w-full relative flex md:h-[64px] max-w-[650px] md:max-w-[570px] my-10">

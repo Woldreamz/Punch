@@ -17,7 +17,7 @@ const JasonGroove = () => {
         />
 
         <div className="px-10 py-20 text-white justify-between w-full flex flex-col md:flex-row space-x-0 space-y-10 md:space-y-0 md:space-x-56">
-          <div className="text-center md:text-start max-w-md flex flex-col gap-10">
+          <div className="text-center md:text-start max-w-md flex flex-col gap-10 ml-10">
             <h1 className="md:text-5xl text-3xl font-bold">
               How it worked <br /> for Jason{" "}
               <img src={JasonImg} alt="Jason Picture" className="w-12 inline" />{" "}

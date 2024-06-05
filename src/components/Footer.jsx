@@ -70,13 +70,13 @@ const Footer = () => {
                   {/* Link buttons container with margin */}
                   <Link
                     to="/"
-                    className="bg-gray-800 text-white hover:bg-yellow-500 border-none rounded-2xl mr-3 px-4 py-3"
+                    className="bg-gray-800 text-white hover:bg-yellow-500 border-none rounded-3xl mr-3 px-4 py-3"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="bg-gray-800 text-white hover:bg-yellow-500 border-none font-['Switzer'] rounded-2xl mr-3 px-4 py-3"
+                    className="bg-gray-800 text-indigo-50 hover:bg-yellow-500 border-none font-['Switzer'] rounded-3xl mr-3 px-4 py-3 text-sm font-medium leading-3"
                   >
                     Apply now
                   </Link>

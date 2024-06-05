@@ -7,6 +7,7 @@ import Two from "../assets/two.svg";
 import Three from "../assets/three.svg";
 import DarkLogo from "../assets/dark-logo.svg";
 
+// An array of objects containing journey steps information
 const Lists = [
   {
     image: One,
@@ -37,6 +38,7 @@ const Lists = [
   },
 ];
 
+
 const TheJourney = () => {
   return (
     <div className="md:py-20">
@@ -44,6 +46,7 @@ const TheJourney = () => {
         Start your journey today.
       </h1>
 
+      {/* Mapping through the journey steps */}
       {Lists.map((list, index) => (
         <div
           key={index}
@@ -52,6 +55,7 @@ const TheJourney = () => {
         >
           <div className="flex gap-5 px-3 py-5 md:mt-4 md:py-16">
 
+            {/* Image */}
             <img
               src={list.image}
               alt={list.title}
@@ -59,11 +63,15 @@ const TheJourney = () => {
             />
             <div className="max-w-sm flex flex-col gap-6">
 
+              {/* Title */}
               <h1 className="md:text-4xl text-xl font-bold">
                 {list.title}
               </h1>{" "}
 
+              {/* Description */}
               <p className="text-base text-[#959595]">{list.description}</p>
+
+              {/* Button */}
               <div className="flex space-x-4 hover:bg-black hover:rounded-xl hover:text-white cursor-pointer">
                 <div className="bg-black p-4 rounded-xl hover:w-20">
                   <img src={DarkLogo} alt="Dark Logo" className="invert" />
@@ -75,8 +83,8 @@ const TheJourney = () => {
             </div>
           </div>
 
+          {/* Group image */}
           <div className="h-full hidden md:block">
-
             <img src={list.group} alt={list.title} className="h-full" />
           </div>
         </div>

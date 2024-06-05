@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <footer className="text-white font-['Switzer']">
+          <footer className="text-white">
             {/* Footer container with text color */}
             <div className="flex flex-col md:flex-row space-x-0 md:space-x-32">
               {/* Flex container for footer content with responsive layout */}
@@ -57,26 +57,26 @@ const Footer = () => {
                 {/* Sidebar with max width */}
                 <img src={Logo} alt="Footer Logo" />
                 {/* Footer logo image */}
-                <p className="pt-6 text-indigo-50 text-sm py-4 font-['Switzer']">
+                <p className="pt-6 text-indigo-50 text-sm py-4">
                   {/* Description paragraph with padding top */}
                   We take complex hiring processes - and simplify them.
                   Connecting you to the world&apos;s highly qualified talent
                   pool.
                 </p>
 
-                <p className="mb-4 mt-6 text-sm font-['Switzer']">LINKS AND REDIRECTS</p>
+                <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
                 {/* Subtitle with margin */}
                 <div className="grow shrink basis-0">
                   {/* Link buttons container with margin */}
                   <Link
                     to="/"
-                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 border-none rounded-2xl mr-3 px-9 py-4 text-sm font-medium font-['Switzer'] leading-3"
+                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 border-none rounded-2xl mr-3 px-9 py-4 text-sm font-medium leading-3"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 border-none rounded-2xl mr-3 px-9 py-4 text-sm font-medium font-['Switzer'] leading-3"
+                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 border-none rounded-2xl mr-3 px-9 py-4 text-sm font-medium leading-3"
                   >
                     Apply now
                   </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
 
               <div className="max-w-[700px] flex flex-col md:justify-self-end">
                 {/* Main footer links container with max width and flex layout */}
-                <p className="text-xl md:text-4xl font-bold mb-8 mt-12 md:mt-0 font-['Switzer']">
+                <p className="text-xl md:text-4xl font-bold mb-8 mt-12 md:mt-0">
                   {/* Subtitle with responsive text size, bold font, and margin */}
                   Connecting the right people to the right businesses.
                 </p>
@@ -94,7 +94,7 @@ const Footer = () => {
                   {Links.map((link, index) => (
                     <nav key={index}>
                       {/* Navigation container for each link group */}
-                      <h2 className="mb-4 uppercase text-[12px] font-['Switzer'] text-[#959595]">
+                      <h2 className="mb-4 uppercase text-[12px] text-[#959595]">
                         {/* Link group heading with text color and uppercase */}
                         {link.heading}
                       </h2>
@@ -103,7 +103,7 @@ const Footer = () => {
                           {/* Link item container with margin */}
                           <Link
                             to="/"
-                            className="text-sm text-white font-['Switzer'] relative group"
+                            className="text-sm text-white relative group"
                           >
                             {/* Link with text size, color, and group class */}
                             {item}

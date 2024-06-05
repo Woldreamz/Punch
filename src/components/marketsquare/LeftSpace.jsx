@@ -11,9 +11,9 @@ const LeftSpace = ({ markets }) => {
   return (
     <div>
       {/* Display the title of the markets */}
-      <p className="text-lg md:text-2xl font-medium mb-4 font-['Switzer-Semibold']">{markets.title}</p>
+      <p className="text-lg md:text-2xl font-medium mb-4">{markets.title}</p>
       {/* Container for the list of market items */}
-      <div className="flex lg:justify-between flex-wrap gap-5 text-[#202229CC] font-['Switzer-Semibold']">
+      <div className="flex lg:justify-between flex-wrap gap-5 text-[#202229CC]">
         {/* Iterate over the markets array and display each market item */}
         {markets.markets.map((market, index) => (
           <span key={index} className="flex items-center gap-2">

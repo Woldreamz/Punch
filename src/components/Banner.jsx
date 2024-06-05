@@ -16,7 +16,7 @@ const Banner = () => {
 
   return (
     <div
-      className={`w-full bg-[#525AA0] rounded-2xl text-white shadow-xl flex justify-between p-3 relative ${
+      className={`w-full bg-[#525AA0] rounded-2xl text-white font-['Switzer'] shadow-xl flex justify-between p-3 relative ${
         menuOpen ? "h-auto" : "h-16"
       }`}
     >
@@ -43,7 +43,7 @@ const Banner = () => {
       </div>
 
       {/* Desktop menu section */}
-      <div className="justify-center items-center hidden lg:flex">
+      <div className="justify-center items-center hidden lg:flex font-['Switzer']">
         <ul className="flex flex-row space-x-7 cursor-pointer">
           {/* Menu items with active state indicator */}
           <li
@@ -139,7 +139,7 @@ const Banner = () => {
         </div>
 
         {/* Mobile menu section */}
-        <div className="relative lg:hidden z-10">
+        <div className="relative lg:hidden z-10 font-['Switzer']">
           <button onClick={toggleMenu} className="focus:outline-none">
             <MenuIcon />
           </button>

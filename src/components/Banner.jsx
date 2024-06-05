@@ -176,5 +176,4 @@ const Banner = () => {
   );
 };
 
-// Export the Banner component as default
 export default Banner;

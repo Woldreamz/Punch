@@ -113,4 +113,4 @@ const Comprehensive = () => {
   );
 };
 
-export default Comprehensive; // Exporting the Comprehensive component
+export default Comprehensive; 

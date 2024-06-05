@@ -123,4 +123,4 @@ const FeatureLight = () => {
   );
 };
 
-export default FeatureLight; // Exporting the FeatureLight component
+export default FeatureLight; 

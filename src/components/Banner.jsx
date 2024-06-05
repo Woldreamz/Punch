@@ -146,7 +146,7 @@ const Banner = () => {
 
           {/* Mobile menu items */}
           {menuOpen && (
-            <ul className="absolute right-0 mt-4 p-2 shadow bg-[#525AA0] w-auto rounded-lg z-50 flex flex-col space-x-5 m-5" style={{ top: '100%' }}>
+            <ul className="absolute right-0 mt-4 p-2 shadow bg-[#525AA0] w-auto rounded-lg z-50 flex flex-col space-x-5" style={{ top: '100%' }}>
               <div className="flex flex-row space-x-3">
                 <li className="border-b border-gray-300">Work</li>
                 <li className="border-b border-gray-300">Talent</li>

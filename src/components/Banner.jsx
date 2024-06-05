@@ -154,20 +154,21 @@ const Banner = () => {
                 <li className="border-b border-gray-300">About</li>
                 <li className="border-b border-gray-300">Contact</li>
               </div>
-              <li className="px-2">
+              <li className="px-2 flex">
                 <Link
                   to="/"
-                  className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-full block text-center mt-2"
+                  className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-auto text-center mr-2 mt-1 justify-center"
                 >
                   Login
                 </Link>
                 <Link
                   to="/"
-                  className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-full block text-center mt-2"
+                  className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-auto text-center mt-1 justify-center"
                 >
                   Join Now
                 </Link>
               </li>
+
             </ul>
           )}
         </div>

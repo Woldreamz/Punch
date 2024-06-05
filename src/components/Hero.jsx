@@ -41,7 +41,7 @@ const Hero = () => {
   return (
     <section className="flex justify-center mt-20">
       <div className="w-full text-[#202229] flex flex-col items-center ">
-        <h1 className="max-w-2xl md:text-5xl text-3xl font-bold text-center mb-8">
+        <h1 className="max-w-2xl md:text-5xl text-3xl font-['Switzer'] font-bold text-center mb-8">
           Finding the right fit{" "}
           <img
             src={Gif}

@@ -16,7 +16,7 @@ const Banner = () => {
 
   return (
     <div
-      className={`w-full bg-[#525AA0] rounded-2xl text-white font-['Switzer'] shadow-xl flex justify-between p-3 relative ${
+      className={`w-full bg-[#525AA0] rounded-2xl text-white font-['Switzer-Semibold'] shadow-xl flex justify-between p-3 relative ${
         menuOpen ? "h-auto" : "h-16"
       }`}
     >
@@ -127,12 +127,12 @@ const Banner = () => {
       {/* Login and Join Now buttons for desktop */}
       <div className="flex items-end justify-end">
         <div className="hidden lg:block relative bottom-2 ">
-          <Link to="/login" className="mr-4 hover:text-yellow-500">
+          <Link to="/login" className="mr-4 hover:text-y[#525AA0]">
             Login
           </Link>
           <Link
             to="/"
-            className="bg-white text-[#202229] border-none rounded-2xl hover:bg-yellow-500 hover:text-white p-4"
+            className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#525AA0] hover:text-white p-4"
           >
             Join Now
           </Link>

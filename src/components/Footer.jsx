@@ -57,7 +57,7 @@ const Footer = () => {
                 {/* Sidebar with max width */}
                 <img src={Logo} alt="Footer Logo" />
                 {/* Footer logo image */}
-                <p className="pt-6 text-indigo-50 text-sm font-['Switzer']">
+                <p className="pt-6 text-indigo-50 text-sm font-['Switzer'] py-4">
                   {/* Description paragraph with padding top */}
                   We take complex hiring processes - and simplify them.
                   Connecting you to the world&apos;s highly qualified talent
@@ -89,7 +89,7 @@ const Footer = () => {
                   {/* Subtitle with responsive text size, bold font, and margin */}
                   Connecting the right people to the right businesses.
                 </p>
-                <div className="flex justify-between w-full gap-5">
+                <div className="flex justify-between w-full gap-5 py-9">
                   {/* Links container with flex layout and gap */}
                   {Links.map((link, index) => (
                     <nav key={index}>

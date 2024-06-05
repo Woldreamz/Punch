@@ -57,7 +57,7 @@ const Footer = () => {
                 {/* Sidebar with max width */}
                 <img src={Logo} alt="Footer Logo" />
                 {/* Footer logo image */}
-                <p className="pt-6">
+                <p className="pt-6 text-indigo-50 text-sm font-['Switzer']">
                   {/* Description paragraph with padding top */}
                   We take complex hiring processes - and simplify them.
                   Connecting you to the world&apos;s highly qualified talent
@@ -66,17 +66,17 @@ const Footer = () => {
 
                 <p className="mb-4 mt-6 text-sm">LINKS AND REDIRECTS</p>
                 {/* Subtitle with margin */}
-                <div className="mt-4 md:mt-14">
+                <div className="grow shrink basis-0">
                   {/* Link buttons container with margin */}
                   <Link
                     to="/"
-                    className="bg-gray-800 text-white hover:bg-yellow-500 border-none rounded-3xl mr-3 px-4 py-3"
+                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 hover:bg-yellow-500 border-none  font-['Switzer'] rounded-2xl mr-3 px-9 py-4 text-sm font-medium leading-3"
                   >
                     Hire now
                   </Link>
                   <Link
                     to="/"
-                    className="bg-gray-800 text-indigo-50 hover:bg-yellow-500 border-none font-['Switzer'] rounded-3xl mr-3 px-4 py-3 text-sm font-medium leading-3"
+                    className="grow shrink basis-0 self-stretch justify-center items-center inline-flex bg-gray-800 text-indigo-50 hover:bg-yellow-500 border-none font-['Switzer'] rounded-2xl mr-3 px-9 py-4 text-sm font-medium leading-3"
                   >
                     Apply now
                   </Link>

@@ -1,10 +1,10 @@
 import React from "react";
-import { Markets } from "../../lib/utils"; // Importing the Markets array from utils
-import LeftSpace from "./LeftSpace"; // Importing LeftSpace component
-import RightSpace from "./RightSpace"; // Importing RightSpace component
-import DarkLogo from "../../assets/dark-logo.svg"; // Importing the dark logo image
+import { Markets } from "../../lib/utils";
+import LeftSpace from "./LeftSpace"; 
+import RightSpace from "./RightSpace";
+import DarkLogo from "../../assets/dark-logo.svg";
 
-// CenterSpace component definition
+
 const CenterSpace = () => {
   return (
     <section className="w-full bg-[#EDEFFF] py-20 lg:py-40 slanted-border relative lg:bottom-5">
@@ -62,4 +62,4 @@ const CenterSpace = () => {
   );
 };
 
-export default CenterSpace; // Exporting the CenterSpace component
+export default CenterSpace; 

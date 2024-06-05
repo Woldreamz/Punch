@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // Importing PropTypes for type-checking
+import PropTypes from 'prop-types';
 
-// LeftSpace component definition
+
 const LeftSpace = ({ markets }) => {
   // Check if markets prop is not provided or is undefined
   if (!markets) {
@@ -41,4 +41,4 @@ LeftSpace.propTypes = {
   }).isRequired, // markets prop is required
 };
 
-export default LeftSpace; // Exporting the LeftSpace component
+export default LeftSpace; 

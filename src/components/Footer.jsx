@@ -1,7 +1,7 @@
-import React from "react"; // Importing React
-import { Link } from "react-router-dom"; // Importing Link component from react-router-dom
-import Logo from "../assets/logo2.svg"; // Importing the logo image
-import DarkLogo from "../assets/dark-logo.svg"; // Importing the dark logo image
+import React from "react"; 
+import { Link } from "react-router-dom"; 
+import Logo from "../assets/logo2.svg"; 
+import DarkLogo from "../assets/dark-logo.svg";
 
 // Array of links and their headings
 const Links = [

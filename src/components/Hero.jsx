@@ -4,6 +4,7 @@ import DarkLogo from "../assets/dark-logo.svg";
 import Gif from "../assets/main-logo.gif";
 
 const Hero = () => {
+  // Define lists of roles for IT & Development and Design & Creative categories
   const rolesIT = [
     "Python Developer",
     "Data Scientist",
@@ -34,7 +35,7 @@ const Hero = () => {
 
   const tabs = ["IT & Development", "Design & Creative"];
   const [activeTab, setActiveTab] = useState(tabs[0]);
-
+  // Determine roles based on active tab
   const roles = activeTab === "IT & Development" ? rolesIT : rolesDesign;
 
   return (
@@ -54,6 +55,7 @@ const Hero = () => {
           about finding the ideal candidate ever again.
         </p>
         <div className="w-full relative flex md:h-[64px] max-w-[650px] md:max-w-[570px] my-10">
+          {/* Input field with placeholder for search */}
           <div className="md:text-base relative h-full font-semibold bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap left-2">
             Looking for
           </div>
@@ -64,11 +66,12 @@ const Hero = () => {
             className="w-full h-full bg-white border-[1.5px] border-[#F0F0F0] border-l-0 rounded-e-none focus:outline-none pl-5 md:pl-3"
           />
           <button className="relative right-8 h-full bg-[#FFBE2E] border-none hover:bg-[#FFBE2E] md:w-[74px] w-[95px] md rounded-xl">
-
+            {/* Button with dark logo */}
             <img src={DarkLogo} alt="Dark Logo" className="relative left-4" />
           </button>
         </div>
 
+        {/* Tabs for selecting category */}
         <div className="w-full max-w-[920px] bg-[#F8F8F8] rounded-2xl flex flex-col items-center p-5">
           <div role="tablist" className="max-w-[400px] mb-5 cursor-pointer">
             {tabs.map((tab, index) => (
@@ -87,6 +90,7 @@ const Hero = () => {
             ))}
           </div>
 
+          {/* List of roles */}
           <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-3 lg:pl-20">
             {roles.map((role, index) => (
               <Link
